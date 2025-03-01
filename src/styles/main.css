@@ -1,0 +1,99 @@
+/* main.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+  background: #f2f9fc;
+  color: #333;
+}
+
+/* Home page container with a healthcare-themed background */
+.home-container {
+  background: url('https://images.unsplash.com/photo-1576765607927-2cf36b4af7d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80')
+    no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+/* Overlay for better readability */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 70, 130, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+}
+
+.btn {
+  background-color: #00bfff;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #009acd;
+}
+
+/* Styling for Login page */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f2f9fc;
+}
+
+.login-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #004466;
+}
+
+/* Dashboard page styling */
+.dashboard-container {
+  padding: 40px;
+  background: #f2f9fc;
+  min-height: 100vh;
+}
+
+.dashboard-container h1 {
+  color: #004466;
+}
+
+.user-info {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
