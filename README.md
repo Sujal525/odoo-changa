@@ -1,5 +1,5 @@
 ### Drive demo link
-https://drive.google.com/drive/folders/17DjGKzYxYbGnmT4ph0RcY7_sjwd4LAsZ?usp=sharing
+https://drive.google.com/drive/folders/17DjGKzYxYbGnmT4ph0RcY7_sjwd4LAsZ?usp=drive_link
 
 # Getting Started with Create React App
 
